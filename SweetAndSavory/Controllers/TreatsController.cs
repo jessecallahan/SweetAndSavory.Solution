@@ -117,7 +117,7 @@ namespace SweetAndSavory.Controllers
     }
 
     [HttpPost]
-    public ActionResult DeleteFlavor(int joinId)
+    public ActionResult DeleteTreat(int joinId)
     {
       var joinEntry = _db.TreatFlavors.FirstOrDefault(entry => entry.TreatFlavorId == joinId);
       _db.TreatFlavors.Remove(joinEntry);
