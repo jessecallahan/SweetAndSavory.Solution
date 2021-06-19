@@ -26,8 +26,7 @@ namespace SweetAndSavory.Controllers
     public ActionResult Index()
     {
       var Treats = _db.Treats.ToList();
-      var Flavors = _db.Flavors.ToList();
-      return View(Flavors);
+      return View(Treats);
     }
 
     public async Task<ActionResult> PersonalIndex()
