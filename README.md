@@ -20,14 +20,14 @@ Pierre's Sweet and Savory Shop is a C# application in the .NET MVC Framework tha
 4. Now, from the project directory folder use command 'dotnet restore' in your terminal to load boilerplate
 5. Lastly, from the project directory folder use command 'dotnet ef migrations add Initial' in your terminal to run migration on db
 6. Finalize that db creation by then using the command 'dotnet ef database update'. If everything works correctly, you should see a 
-new sql database schema called jesse_callahan in your workbench.
+new sql database schema called sweetandsavory in your workbench.
 7. From the project directory folder use command 'dotnet run' in your terminal to run server
 8. Copy the local host 5000 server link into your perferred web browser
 9. Enjoy!
 
 ## Specs
 BELOW IS A SCHEMA CHART
-![image info](./Factory/wwwroot/images/schema_pic.png)
+![image info](./SweetAndSavory/wwwroot/images/schema_pic.png)
 ## Technologies Used
 * C#
 * MySql
