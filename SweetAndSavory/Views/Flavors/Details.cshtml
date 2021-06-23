@@ -10,19 +10,19 @@
 
 @if (@Model.JoinEntities.Count == 0)
 {
-  <p>This Flavor does not belong to any categories</p>
+  <p>This Flavor does have any treats that belong to it</p>
 }
 else
 {
-  <h4>Flavors this Flavor belongs to:</h4>
+  <h4>Treats this Flavor belongs to:</h4>
   <ul>
   @foreach (var join in Model.JoinEntities)
     {
-      <li>@join.Flavor.Name</li>
-      @using (Html.BeginForm("DeleteFlavor", "Flavors"))
+      <li>@join.Treat.Name</li>
+      @using (Html.BeginForm("DeleteTreat", "Flavors"))
       {
         @Html.Hidden("joinId", @join.TreatFlavorId)
-        <input type="submit" value="Delete this flavor from this Flavor" />
+        <input type="submit" value="Delete this treat from this Flavor" />
       }
     }
   </ul>

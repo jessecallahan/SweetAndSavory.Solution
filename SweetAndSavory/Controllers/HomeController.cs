@@ -17,11 +17,6 @@ namespace SweetAndSavory.Controllers
     [HttpGet("/")]
     public ActionResult Index()
     {
-      return View();
-    }
-
-    public ActionResult Splash()
-    {
       ViewBag.Treats = _db.Treats.ToList();
       ViewBag.Flavors = _db.Flavors.ToList();
       return View();
