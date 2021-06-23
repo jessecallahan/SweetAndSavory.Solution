@@ -8,7 +8,7 @@ Contact: _**Jessetylercallahan@gmail.com**_</br>
 ## Description
 Pierre's Sweet and Savory Shop is a C# application in the .NET MVC Framework that utilizes a local sql database. This application simulates a Factory database, where an owner can see all the Treats and Flavors they belong to. The database utilizes a many to many relationship. This project also utilizes authentication and authorization using Identity. 
 
-Each Registered User has access to all CRUD functionality. However if you are not signed it you can see the splash page, flavors index, and treats index. To see what Treats and Flavors you have created as a User navigate to the treats or flavors index pages and click 'go to list of treats/flavors created by this user'.
+Each Registered User has access to all CRUD functionality. However if you are not signed in you can see the splash page. To see what Treats and Flavors you have created as a User navigate to the treats or flavors index pages and click 'go to list of treats/flavors created by this user'.
 
 ## Setup/Installation Requirements
 
