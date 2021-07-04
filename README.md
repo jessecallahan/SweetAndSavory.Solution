@@ -27,7 +27,7 @@ Each Registered User has access to all CRUD functionality. However if you are no
 
 ## Specs
 BELOW IS A SCHEMA CHART
-![image info](./SweetAndSavory/wwwroot/images/schema_pic.png)
+![image info](./SweetAndSavory/wwwroot/images/crud.png)
 ## Technologies Used
 * C#
 * MySql
